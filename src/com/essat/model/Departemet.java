@@ -11,6 +11,12 @@ public class Departemet {
 		this.nom = nom;
 		this.matieres = matieres;
 	}
+	
+	public Departemet(String nom) {
+		super();
+		this.nom = nom;
+	}
+
 	public Departemet() {
 		super();
 		// TODO Auto-generated constructor stub

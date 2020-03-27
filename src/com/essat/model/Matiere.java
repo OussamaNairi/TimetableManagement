@@ -13,6 +13,15 @@ public class Matiere {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	public Matiere(String nom, int coefficient, int maxEtudiant, int volumeHoraire) {
+		super();
+		this.nom = nom;
+		this.coefficient = coefficient;
+		this.maxEtudiant = maxEtudiant;
+		this.volumeHoraire = volumeHoraire;
+	}
+
 	public Matiere(String nom, int coefficient, int maxEtudiant, int volumeHoraire, ArrayList<Enseignant> enseignants) {
 		super();
 		this.nom = nom;
