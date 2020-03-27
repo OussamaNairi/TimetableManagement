@@ -19,4 +19,24 @@
     <servlet-name>AddEnseignant</servlet-name>
     <url-pattern>/AddEnseignant</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteEnseignant</display-name>
+    <servlet-name>DeleteEnseignant</servlet-name>
+    <servlet-class>com.essat.controlleur.DeleteEnseignant</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteEnseignant</servlet-name>
+    <url-pattern>/DeleteEnseignant</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateEnseignant</display-name>
+    <servlet-name>UpdateEnseignant</servlet-name>
+    <servlet-class>com.essat.controlleur.UpdateEnseignant</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateEnseignant</servlet-name>
+    <url-pattern>/UpdateEnseignant</url-pattern>
+  </servlet-mapping>
 </web-app>
