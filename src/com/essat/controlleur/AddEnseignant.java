@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
+
 /**
  * Servlet implementation class AddEnseignant
  */
@@ -24,8 +26,19 @@ public class AddEnseignant extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		String nom=request.getParameter("nom");
+		String prenom=request.getParameter("prenom");
+		String cnss=request.getParameter("cnss");
+		String cnprs=request.getParameter("cnprs");
+		int nbEnfants=Integer.parseInt(request.getParameter("nbEnfants"));
+		String diplome=request.getParameter("diplome");
+		String rib_IBAN=request.getParameter("rib_IBAN");
+		String img=request.getParameter("img");
+		String poste=request.getParameter("poste");
+		String etablissementOrigine=request.getParameter("etablissementOrigine");
+		
+		
+		request.getRequestDispatcher("Principale").forward(request, response);
 	}
 
 	/**
