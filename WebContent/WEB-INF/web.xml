@@ -39,4 +39,44 @@
     <servlet-name>UpdateEnseignant</servlet-name>
     <url-pattern>/UpdateEnseignant</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddSalle</display-name>
+    <servlet-name>AddSalle</servlet-name>
+    <servlet-class>com.essat.controlleur.AddSalle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddSalle</servlet-name>
+    <url-pattern>/AddSalle</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddSeance</display-name>
+    <servlet-name>AddSeance</servlet-name>
+    <servlet-class>com.essat.controlleur.AddSeance</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddSeance</servlet-name>
+    <url-pattern>/AddSeance</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddMatiere</display-name>
+    <servlet-name>AddMatiere</servlet-name>
+    <servlet-class>com.essat.controlleur.AddMatiere</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMatiere</servlet-name>
+    <url-pattern>/AddMatiere</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddDepartement</display-name>
+    <servlet-name>AddDepartement</servlet-name>
+    <servlet-class>com.essat.controlleur.AddDepartement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDepartement</servlet-name>
+    <url-pattern>/AddDepartement</url-pattern>
+  </servlet-mapping>
 </web-app>
